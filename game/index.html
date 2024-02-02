@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <h2>Rock, Paper, Scissors</h2>
+        <div class="choices">
+            <div class="choice" id="player-choice">
+                <!-- Player choice will be displayed here -->
+            </div>
+            <div class="vs">vs</div>
+            <div class="choice" id="computer-choice">
+                <!-- Computer choice will be displayed here -->
+            </div>
+        </div>
+        <div class="result" id="result"></div>
+        <div class="score" id="score"></div>
+        <button class="rock" onclick="playGame('rock')">Rock</button>
+        <button class="paper" onclick="playGame('paper')">Paper</button>
+        <button class="scissors" onclick="playGame('scissors')">Scissors</button>
+        <button class="restart" onclick="restartGame()">Restart Game</button>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+    
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gray;
+}
+
+.game-container {
+    text-align: center;
+    margin-top: 210px;
+    border: solid 4px white; 
+    
+    
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+}
+
+.choice {
+    margin: 0 20px;
+}
+
+.vs {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 200px;
+    font-family: 'Paytone One', sans-serif;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: rgb(4, 4, 214);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.score {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.restart {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #237e26;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Add a class for styling the image size */
+.game-image {
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 90px;
+
+}
+
+.game-container h2 {
+    font-family: 'Paytone One', sans-serif;
+}
+/*start screen */
